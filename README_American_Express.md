@@ -1,18 +1,18 @@
 ![Banner](banner.png)
 
-# American Express Credit Risk Analysis 🏦
+# American Express Credit Risk Analysis 
 
 This project simulates a real-world scenario for predicting credit defaults using a dataset inspired by credit card and loan behavior (e.g., American Express). It uses Python and machine learning to classify whether a customer is likely to default on their loan.
 
 ---
 
-## 📌 Objective
+##  Objective
 
 To analyze customer data and build machine learning models that can predict whether a customer will default (`1`) or not (`0`), based on various financial features.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 Simulated dataset includes the following features:
 
@@ -23,11 +23,11 @@ Simulated dataset includes the following features:
 - `employment_years`
 - `default` (target variable)
 
-📄 Dataset file: [`credit_risk_dataset.csv`](./credit_risk_dataset.csv)
+ Dataset file: [`credit_risk_dataset.csv`](./credit_risk_dataset.csv)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - NumPy
@@ -39,7 +39,7 @@ Simulated dataset includes the following features:
 
 ---
 
-## 📊 Workflow
+##  Workflow
 
 1. **Data Loading & EDA**
    - Class distribution
@@ -58,7 +58,7 @@ Simulated dataset includes the following features:
 
 ---
 
-## ✅ Results
+##  Results
 
 | Model              | Accuracy | ROC AUC |
 |-------------------|----------|---------|
@@ -68,7 +68,7 @@ Simulated dataset includes the following features:
 
 ---
 
-## 📈 How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/yourusername/amex-credit-risk-analysis.git
@@ -78,7 +78,7 @@ jupyter notebook American_Express_Credit_Risk_Analysis.ipynb
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Dataset simulated for educational purposes
 - Built using Scikit-learn and XGBoost
